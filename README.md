@@ -4,6 +4,6 @@ npm install -g @vue/cli
 //
 
 ```
-npm install
+Rodar o programa 
 ```
  npm run serve 
