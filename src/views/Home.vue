@@ -1,19 +1,16 @@
 <template >
   <v-container >
-     <div class="elevation-12 mt-1">
-                <v-toolbar class="elevation-1  mt-1"
-                  dark
-                  prominent
-                  src="https://neilpatel.com/br/blog/cor-para-aumentar-conversao/"
+
+                <v-toolbar class="colorBlue"
+
+                 color = #50A1EB
                 >
 
                   <v-app-bar-nav-icon></v-app-bar-nav-icon>
-                  <v-toolbar-title>Psicologia</v-toolbar-title>
                   <v-spacer></v-spacer>
 
                 </v-toolbar>
-          </div>
-     
+
       <v-row align="center" justify="center"  >
           <v-col cols="12" sm="100">
             <v-card class="elevation-12 mt-1"  >
@@ -46,13 +43,13 @@
                               <v-col cols="12" sm="7">
                               </v-col>
                             </v-row>
-                          <v-btn color="#212121" dark block tile>Log in</v-btn>
+                          <v-btn color=#50A1EB dark block tile>Log in</v-btn>
 
                           </v-col>
                         </v-row>  
                       </v-card-text>
                     </v-col>
-                    <v-col cols="12" md="6" class="grey darken-4 rounded-bl-xl" >
+                    <v-col cols="12" md="6" class="colorBlue rounded-bl-xl" >
                     <div style="  text-align: center; padding: 180px 0; ">
                       <v-card-text class="white--text" >
                         <h3 class="text-center ">Não tem uma conta ainda?</h3>
@@ -69,7 +66,7 @@
                 </v-window-item>
                 <v-window-item :value="2">
                   <v-row >
-                    <v-col cols="12" md="6" class="grey darken-4 rounded-br-xl">
+                    <v-col cols="12" md="6" class="colorBlue rounded-br-xl">
                      <div style="  text-align: center; padding: 180px 0;">
                       <v-card-text class="white--text" >
                         <h3 class="text-center ">Já se inscreveu?</h3>
@@ -127,7 +124,7 @@
                             label="Senha"
                             outlined
                             dense
-                            color="black"
+                            color="50A1EB"
                           autocomplete="false"
                            type="Senha"
                           
@@ -145,7 +142,7 @@
                                 <span class="caption grey--text ml-n10">Termos e Condições</span>
                               </v-col>
                             </v-row>
-                          <v-btn color="grey darken-4 " dark block tile>Sign up</v-btn>
+                          <v-btn color=#50A1EB dark block tile>Sign up</v-btn>
 
                           </v-col>
                         </v-row>  
@@ -180,6 +177,9 @@
 }
 .v-application .rounded-br-xl {
     border-bottom-right-radius: 300px !important;
+}
+.colorBlue {
+  background-color :#50A1EB
 }
 
 </style>
